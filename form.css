@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background and center the form */
+body {
+    background: linear-gradient(135deg, #4d95c9, #31dea1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background:white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(135deg, #31dea1, #4d95c9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #007bff;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.radiobtn{
+padding: 10px;
+}
+
+.radiobtn label, .radiobtn input[type="radio"] {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.chkbox{
+    padding: 10px;
+}
+
+.chkbox label {
+    display: inline-block; 
+}
+
+.chkbox input[type="checkbox"] {
+    vertical-align: middle; 
+}
+
+button {
+    background: linear-gradient(135deg,  #31dea1, #4d95c9);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}

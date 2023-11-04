@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the entire body */
+body {
+    background: linear-gradient(135deg, #4d95c9, #31dea1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the form container */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #31dea1, #4d95c9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg,  #31dea1, #4d95c9);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style the submit button on hover */
+button:hover {
+    background-color: #0056b3;
+}

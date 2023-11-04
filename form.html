@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fest Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Fest Registration Form</h1>
+        <form action="Reg_Success.html" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password-input">Password Input:</label>
+                <input type="password" id="password-input" name="password-input" autocomplete="new-password" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required placeholder="Your Address here..." autocomplete="off"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label>
+            </div>
+            <div class="form-group">
+                <label for="tech-interests">Technology Interests:</label>
+                <input type="text" id="tech-interests" name="tech-interests" placeholder="E.g., Artificial Intelligence, Blockchain, IoT" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <div class="radiobtn">
+                    <label for="radio-input">T-Shirt Size:</label><br>
+                    <input type="radio" id="radio-option-1" name="radio-input" value="option-1">
+                    <label for="radio-option-1">Small</label>
+                    <input type="radio" id="radio-option-2" name="radio-input" value="option-2">
+                    <label for="radio-option-2">Medium</label>
+                    <input type="radio" id="radio-option-3" name="radio-input" value="option-3">
+                    <label for="radio-option-3">Large</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="chkbox">
+                    <label for="checkbox-input">Contests:</label><br>
+                    <input type="checkbox" id="checkbox-option-1" name="checkbox-input" value="option-1">
+                    <label for="checkbox-option-1">Blind Coding</label><br>
+                    <input type="checkbox" id="checkbox-option-2" name="checkbox-input" value="option-2">
+                    <label for="checkbox-option-2">Code Blaze</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="select-input">Academic Year:</label>
+                <select id="select-input" name="select-input">
+                    <option value="option-0">Select Year</option>
+                    <option value="option-1">1st Year</option>
+                    <option value="option-2">2nd Year</option>
+                    <option value="option-3">3rd Year</option>
+                </select required>
+            </div>
+            <div class="form-group">
+                <label for="experience">Programming Experience (years):</label>
+                <input type="number" id="experience" name="experience" min="0" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="file-upload">Upload Photo (JPG only):</label>
+                <input type="file" id="file-upload" name="file-upload" accept=".jpg" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
