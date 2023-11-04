@@ -35,7 +35,7 @@ If you have any questions or need more information about the College Tech Fest, 
 
 ## Author
 
-- Prthamesh Surve
+- Prathamesh Surve
 
 ---
 
